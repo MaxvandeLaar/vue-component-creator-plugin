@@ -17,7 +17,7 @@ public class ComponentCreateOptions extends AbstractOptions {
 
     private final String defaultComponentTemplateFile = "/templates/component/{{componentName}}.vue";
     private final String defaultSassTemplateFile = "/templates/component/_{{componentName}}.scss";
-    private final String defaultStorybookTemplateFile = "/templates/component/{{componentName}}.stories.js";
+    private final String defaultStorybookTemplateFile = "/templates/component/{{componentName}}.stories.ts";
     private final String defaultSpecTemplateFile = "/templates/component/{{componentName}}.spec.js";
     private final String defaultMDTemplateFile = "/templates/component/{{componentName}}.md";
 
